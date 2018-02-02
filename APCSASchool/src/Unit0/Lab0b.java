@@ -1,6 +1,6 @@
 package Unit0;
 
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -44,6 +44,7 @@ public class Lab0b
 		System.out.println("*        integer types          *");
 		System.out.println("*                               *");
 		System.out.println("*8 bit - byteOne = "+byteOne+"\t\t*");
+		System.out.println("git test");
 
 
 
