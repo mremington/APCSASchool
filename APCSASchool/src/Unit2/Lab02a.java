@@ -17,5 +17,6 @@ public class Lab02a
 		test.setLengthWidth(131,75);
 		test.calculatePerimeter( );
 		test.print();
+		System.out.println("Hello");
 	}
 }

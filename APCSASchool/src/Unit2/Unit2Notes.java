@@ -15,6 +15,7 @@ public class Unit2Notes {
 		System.out.println(output);
 		
 		number = (int) fNum;
+		fNum = number;
 		System.out.println(number);
 	}
 
