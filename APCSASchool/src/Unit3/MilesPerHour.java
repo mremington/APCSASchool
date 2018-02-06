@@ -22,25 +22,27 @@ public class MilesPerHour
 
 	public MilesPerHour(int dist, int hrs, int mins)
 	{
-
-
+		setNums(dist,hrs,mins);
 	}
 
 	public void setNums(int dist, int hrs, int mins)
 	{
-
-
+		distance = dist;
+		hours = hrs;
+		minutes = mins;
 	}
 
 	public void calcMPH()
 	{
-
+		//r = d/t
+		double time = hours + (double)minutes/60;
+		mph = distance/time;
 
 	}
 
 	public void print()
 	{
-
+		System.out.println(distance + " miles in " + hours + " and " + minutes + " = " + Math.round(mph) + " MPH");
 
 	}
 }
