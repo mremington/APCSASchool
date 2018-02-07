@@ -16,6 +16,21 @@ public class Lab04b
 		out.println(demo);
 
 		//add more test cases
+		demo.setString("World");
+		demo.findFirstLastLetters();
+		out.println(demo);
+		
+		demo.setString("JukeBox");
+		demo.findFirstLastLetters();
+		out.println(demo);
+		
+		demo.setString("TCEA");
+		demo.findFirstLastLetters();
+		out.println(demo);
+		
+		demo.setString("UIL");
+		demo.findFirstLastLetters();
+		out.println(demo);
 		
 		
 		

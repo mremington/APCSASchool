@@ -13,26 +13,29 @@ public class StringRipper
 	
 	public StringRipper()
 	{
-
+		word = "Ravens";
+		setString("Ravens");
 	}
 
 	public StringRipper(String s)
 	{
-
+		setString(s);
 	}
 	
    public void setString(String s)
    {
-
+		word = s;
    }	
 
 	public String ripString(int x, int y)
 	{
-		return "";
+		String output = word.substring(x, y);
+		
+		return output;
 	}
 
  	public String toString()
  	{
- 		return "\n\n";
+ 		return "\n\n"+word;
 	}
 }

@@ -15,27 +15,25 @@ public class FirstAndLast
 
 	public FirstAndLast()
 	{
-
-
+		word = "Ravens";
+		setString("Ravens");
 	}
 
 	public FirstAndLast(String s)
 	{
-
-
-
+		setString(s);
 	}
 
 	public void setString(String s)
 	{
-
-
+		word = s;		
 	}
 
 	public void findFirstLastLetters()
 	{
-
-
+		firstLetter = word.charAt(0);
+		lastLetter = word.charAt(word.length()-1);
+		
 
 	}
 
@@ -43,7 +41,9 @@ public class FirstAndLast
  	{
  		String output="";
 
-
+ 		output += "word :: " + word + "\n";
+ 		output += "first letter :: " + firstLetter + "\n";
+ 		output += "last letter :: " + lastLetter + "\n";
 
 
  		return output;
