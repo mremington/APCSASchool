@@ -15,6 +15,10 @@ public class DecToBinary {
 		//one byte = 8 bits
 		//2^7, 2^6, 2^5, 2^4, 2^3, 2^2, 2^1, 2^0
 		//128  ,64  ,32  ,16  ,8   ,4  ,2   ,1
+		
+		
+
+		
 		for(int i = 7; i >=0; i--){
 			
 			if(temp > (int)Math.pow(2, i))
@@ -43,6 +47,7 @@ public class DecToBinary {
 			base10 = base10/2;
 		}
 		System.out.println(binary2);
+		
 
 	}
 

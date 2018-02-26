@@ -8,7 +8,6 @@ public class CountSingleDigits {
 	public static int[] randInts(){
 		int[] randNums = new int[10];
 		
-		
 		for(int i = 0; i < randNums.length; i++){
 			randNums[i] =  (int) (Math.random() * 10 );
 		}

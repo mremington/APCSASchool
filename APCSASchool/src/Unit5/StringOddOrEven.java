@@ -14,35 +14,37 @@ public class StringOddOrEven
 
 	public StringOddOrEven()
 	{
-
+		word = "ravens";
 	}
 
 	public StringOddOrEven(String s)
 	{
-
+		setString(s);
 	}
 
 	public void setString(String s)
 	{
-
-
+		word = s;
+		word = word.trim();
 	}
 
  	public boolean isEven()
  	{
-
-
-
-		return false;
+ 		
+ 		if(word.length() % 2 == 0 ){
+ 			return true;
+ 		}
+ 		
+ 		return false;
 	}
 
  	public String toString()
  	{
  		String output="";
-
-
-
-
+ 		if( isEven() )
+ 			output += word + " is even";
+ 		else
+ 			output += word + " is odd";
 
  		return output;
 	}

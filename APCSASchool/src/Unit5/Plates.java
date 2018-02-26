@@ -21,6 +21,13 @@ public class Plates {
 		}
 		
 		System.out.println(plateNumber);
+		
+		
+		
+		String s ="COMPSCI";
+				
+		
+		System.out.println(s.substring(0,3));
 	}
 
 }

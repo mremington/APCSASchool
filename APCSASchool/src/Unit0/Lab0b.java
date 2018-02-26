@@ -46,7 +46,10 @@ public class Lab0b
 		System.out.println("*8 bit - byteOne = "+byteOne+"\t\t*");
 		System.out.println("git test");
 
-
+		int n = 9;
+		n = n + 3 *2;
+		System.out.println(n);
+		
 
 
 	}

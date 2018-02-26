@@ -11,7 +11,13 @@ public class Lab04c
 {
 	public static void main ( String[] args )
 	{
-		StringRipper demo = new StringRipper("chicken");
+		
+		StringRipper demo = new StringRipper();
+		demo.setString("alligator");
+		out.println(demo.ripString(3,8));
+		out.println(demo);	
+		
+		/*StringRipper demo = new StringRipper("chicken");
 		out.println(demo.ripString(3,6));
 		out.println(demo);
 		
@@ -30,6 +36,6 @@ public class Lab04c
 		out.println(demo.ripString(7,15));
 		out.println(demo.ripString(15,26));
 		out.println(demo.ripString(22,26));						
-		out.println(demo);		
+		out.println(demo);		*/
 	}
 }

@@ -14,7 +14,7 @@ public class Lab10c
 		//add test cases
 		
 		System.out.println("How compareTo works: a.compareTo(b) --> a comes before b so the result would be negative");
-		System.out.println("a".compareTo("b")+ "\n\n");
+		System.out.println("a".compareTo("e")+ "\n\n");
 		
 		
 		System.out.println("How compareTo works: A.compareTo(b) --> A comes before b so the result would be negative");
