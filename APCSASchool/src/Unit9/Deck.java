@@ -60,6 +60,18 @@ public class Deck {
 	 */
 	public void shuffle() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+		int[] cardLocs = new int[52];
+		for(int i = 0; i<52;i++){
+			cardLocs[i] = i;
+		}
+		
+		Shuffler.selectionShuffle(cardLocs);
+		
+		Card[] shuffled = new Card[52];
+		for(int i = 0; i<52;i++){
+			shuffled[i] = cards[cardLocs[i]];
+		}
+		
 	}
 
 	/**
