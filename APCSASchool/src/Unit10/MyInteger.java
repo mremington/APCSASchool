@@ -35,23 +35,17 @@ public class MyInteger {
 		return true; 
 	}
 	
-	public static boolean isEven(int n){
-		return n%2==0;
+	public static boolean isEven(MyInteger n){
+		return n.isEven();
 	}
 	
-	public static boolean isOdd(int n){
-		return n%2!=0;
+	public static boolean isOdd(MyInteger n){
+		return n.isOdd();
 	}
 	
-	public static boolean isPrime(int number) { 
-		int sqrt = (int) Math.sqrt(number) + 1; 
-		for (int i = 2; i < sqrt; i++) { 
-			if (number % i == 0) { 
-				// number is perfectly divisible - no prime 
-				return false; 
-			}	
-		}
-		return true; 
+	public static boolean isPrime(MyInteger number) { 
+
+		return number.isPrime(); 
 	}
 	
 	public boolean equals(int n){
@@ -64,10 +58,19 @@ public class MyInteger {
 	
 	public static int parseInt(char[] num){
 		int number = 0;
+		int exp = 0;
+		for(int i = num.length-1; i>= 0; i--){
+			number += Math.pow(10, exp) * (num[i]-48);
+			exp++;
+		}
 		
 		return number;
 	}
 	
+	public static int parseInt(String s){
+		char[] nums = s.toCharArray();
+		return parseInt(nums);
+	}
 	
 
 		
