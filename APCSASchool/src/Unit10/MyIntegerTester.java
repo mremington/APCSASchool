@@ -6,9 +6,9 @@ public class MyIntegerTester {
 		// TODO Auto-generated method stub
 		MyInteger myint = new MyInteger(250);
 		
-		char[] nums = {'2','5','0'};
-		System.out.println(myint.parseInt(nums) + 100);
-		System.out.println(myint.parseInt("32345") + 10000);
+		char[] nums = {'2','5','2'};
+		System.out.println(myint.parseInt(nums));
+		System.out.println(myint.parseInt("32345"));
 
 	}
 

@@ -13,6 +13,7 @@ public class ArrayListNotes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		numList = new ArrayList();
 		
 		
