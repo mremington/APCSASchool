@@ -20,7 +20,7 @@ public class Lab24e
 		for(int i = 0; i<size; i++)
 		{
 			String word = file.next();
-			FancyWord test = new FancyWord(word);
+			FancyWordTwo test = new FancyWordTwo(word);
 			out.println(test);
 	   }
 	}
