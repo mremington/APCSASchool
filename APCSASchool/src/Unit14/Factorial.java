@@ -5,15 +5,12 @@ public class Factorial {
 	public static long getFactorial(long f, int n, int count){
 		System.out.println("Print before the recursive call - factorial value " + f + "stack "+ count);
 		if(n == 1){
-			
 			return f;
-			
 		}
 		else{
 			f *= n-1;
 			count++;
 			return getFactorial(f, n-1,count);
-			
 		}
 
 	}

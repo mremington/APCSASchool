@@ -48,5 +48,6 @@ public class MergeSort
 	      list[front+i]=temp[i];
 
 	   out.println("pass " + passCount++ + " " + Arrays.toString(list) + "\n");
+	   out.println("pass " + passCount + " " + Arrays.toString(temp) + "\n");
 	}
 }
